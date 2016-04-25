@@ -16,6 +16,7 @@ addons:
     packages:
     - bc
     - libssl-dev
+    - gcc-multilib
 
 # Cache downloaded files between builds
 cache:
