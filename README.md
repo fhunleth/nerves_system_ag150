@@ -1,6 +1,23 @@
-# NervesSystemAg150
-
+# Logic Supply AG150
 [![Build Status](https://travis-ci.org/nerves-project/nerves_system_ag150.png?branch=master)](https://travis-ci.org/nerves-project/nerves_system_ag150)
+
+This is the base Nerves System configuration for the PC Engines ALIX board.
+
+| Feature              | Description                     |
+| -------------------- | ------------------------------- |
+| CPU                  | 1.86 GHz Intel Atom N2800       |
+| Memory               | 1 GB+ DRAM                      |
+| Storage              | Internal SSD or USB Flash drive |
+| Linux kernel         | 3.13.5                          |
+| IEx terminal         | UART - ttyS0                    |
+| GPIO, I2C, SPI       | No                              |
+| ADC                  | No                              |
+| PWM                  | No                              |
+| UART                 | 1 or 2 available - ttyS0, ttyS1 |
+| Camera               | No                              |
+| Ethernet             | Yes                             |
+| WiFi                 | No                              |
+| Bluetooth            | No                              |
 
 The Logic Supply AG150 is a fanless Intel Atom N2800 platform. This
 configuration creates an image that can be copied on to a USB Flash drive or on
