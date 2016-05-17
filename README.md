@@ -1,7 +1,7 @@
 # Logic Supply AG150
 [![Build Status](https://travis-ci.org/nerves-project/nerves_system_ag150.png?branch=master)](https://travis-ci.org/nerves-project/nerves_system_ag150)
 
-This is the base Nerves System configuration for the PC Engines ALIX board.
+This is the base Nerves System configuration for the Logic Supply AG150.
 
 | Feature              | Description                     |
 | -------------------- | ------------------------------- |
