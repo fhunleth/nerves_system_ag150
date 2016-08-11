@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.6.1
+
+  * Package versions
+    * Nerves.System.BR v0.6.1
+
 ## v0.5.1
   * Nerves.System.BR v0.5.1
     * Bug Fixes(nerves-env)
