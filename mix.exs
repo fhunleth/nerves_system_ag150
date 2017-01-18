@@ -33,7 +33,9 @@ defmodule NervesSystemAg150.Mixfile do
 
   defp package do
     [maintainers: ["Frank Hunleth", "Justin Schneck"],
-     files: ["LICENSE", "mix.exs", "nerves_defconfig", "nerves.exs", "README.md", "VERSION", "rootfs-additions"],
+     files: ["LICENSE", "mix.exs", "nerves_defconfig", "nerves.exs", "README.md", 
+             "VERSION", "rootfs-additions", "linux-4.4.defconfig",
+             "post-createfs.sh", "syslinux.cfg"],
      licenses: ["Apache 2.0"],
      links: %{"Github" => "https://github.com/nerves-project/nerves_system_ag150"}]
   end

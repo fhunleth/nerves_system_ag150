@@ -15,6 +15,9 @@ config :nerves_system_ag150, :nerves_env,
   build_config: [
     defconfig: "nerves_defconfig",
     package_files: [
-      "rootfs-additions"
+      "rootfs-additions",
+      "linux-4.4.defconfig",
+      "post-createfs.sh",
+      "syslinux.cfg"
     ]
   ]
